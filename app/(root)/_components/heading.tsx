@@ -1,7 +1,6 @@
 "use client";
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
-import { useRef } from 'react';
 
 export const Heading = () => {
     const handleScroll = () => {

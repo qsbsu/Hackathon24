@@ -1,11 +1,4 @@
 import Image from "next/image";
-import { Poppins } from "next/font/google";
-import { cn } from "@/lib/utils";
-
-const Font = Poppins({
-    subsets:["latin"],
-    weight:["400", "800"]
-})
 
 export const Logo = () => {
     return(
