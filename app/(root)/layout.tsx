@@ -1,3 +1,5 @@
+"use client"; // Mark as Client Component
+
 import React from "react";
 import { NavBar } from "./_components/navbar";
 

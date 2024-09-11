@@ -1,3 +1,5 @@
+"use client"; // Mark as Client Component
+
 interface EventTimelineProps {
   day: string;
   timeline: { time: string; event: string }[];

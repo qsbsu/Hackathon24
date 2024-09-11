@@ -1,3 +1,5 @@
+"use client"; // Mark as Client Component
+
 import { Heading } from './_components/heading';
 import ToggleEvents from './_components/event_descriptions';
 import { Footer } from './_components/footer';

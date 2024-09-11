@@ -14,7 +14,7 @@ export const Heading = () => {
         <div className="h-screen flex flex-col justify-center items-center max-w-3xl text-center">
             <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold">
                 Your Ideas, Quantum Technologies. Unified. 
-                Welcome to <span className="underline">QSBSU Hackathon 24'</span>
+                Welcome to <span className="underline">QSBSU Hackathon 24&apos;</span>
             </h1>
 
             <Button 

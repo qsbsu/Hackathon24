@@ -8,8 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "touch out/.nojekyll && gh-pages -d out -t true",
+    "deploy-npm": "npm run build && npm run deploy"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.0",

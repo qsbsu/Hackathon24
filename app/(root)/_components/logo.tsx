@@ -1,3 +1,5 @@
+"use client"; // Mark as Client Component
+
 import Image from "next/image";
 
 export const Logo = () => {

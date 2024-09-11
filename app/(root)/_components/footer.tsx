@@ -1,3 +1,5 @@
+"use client"; // Mark as Client Component
+
 import { Logo } from "./logo"
 import { Button } from "@/components/ui/button"
 
