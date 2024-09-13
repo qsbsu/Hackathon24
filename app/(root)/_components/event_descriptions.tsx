@@ -13,17 +13,17 @@ const eventsData: EventInfo[] = [
   {
     title: 'Networking Session',
     description: 'Join us for an exclusive networking session where participants can engage with fellow quantum enthusiasts, exchange ideas, and learn the field of quantum computing.',
-    image: '/networking.jpg', // Replace with your actual image path
+    image: './Networking.jpg', // Replace with your actual image path
   },
   {
     title: 'Lectures',
     description: 'Engage with top-tier quantum researchers as they give deep lectures on the emerging trends in quantum technology and computing.',
-    image: '/Seminar.jpg', // Replace with your actual image path
+    image: './Seminar.jpg', // Replace with your actual image path
   },
   {
     title: 'Hackathon',
     description: 'Join the main event where teams compete to build quantum-inspired solutions. Teams will be given real-world problems to solve using quantum algorithms.',
-    image: '/competition.jpg', // Replace with your actual image path
+    image: './Competition.jpg', // Replace with your actual image path
   },
 ];
 

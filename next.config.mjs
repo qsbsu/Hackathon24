@@ -5,7 +5,8 @@ const nextConfig = {
       unoptimized: true,
     },
     reactStrictMode: true,
-    assetPrefix: '/',
+    assetPrefix:  '/Hackathon24/' ,  // Add project name for GitHub Pages
+    basePath:  '/Hackathon24'  
   };
 
 export default nextConfig;

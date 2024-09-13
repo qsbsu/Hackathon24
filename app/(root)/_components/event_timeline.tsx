@@ -35,12 +35,11 @@ const TansferDetails = () => {
 
 const HackathonSchedule: React.FC = () => {
   return (
-    <div className="container mx-auto px-6 py-12">
-      <h1 className="text-4xl font-bold text-center mb-12">Event Schedule</h1>
+    <div className="container mx-auto px-4 md:px-6 py-8 md:py-12">
+      <h1 className="text-3xl md:text-4xl font-bold text-center mb-10 md:mb-12">Event Schedule</h1>
 
       {/* Side by Side Timelines */}
-      <div className="flex flex-col mt-16 md:flex-row justify-center md:space-x-8 space-y-8 md:space-y-0">
-        {/* Day 1 Timeline */}
+      <div className="flex flex-col md:flex-row justify-center md:space-x-6 space-y-6 md:space-y-0">
         <EventTimeline
           day="Day 1:"
           timeline={[
@@ -51,7 +50,6 @@ const HackathonSchedule: React.FC = () => {
             { time: '7:00 PM', event: 'Dinner & Networking' },
           ]}
         />
-        {/* Day 2 Timeline */}
         <EventTimeline
           day="Day 2:"
           timeline={[
@@ -67,5 +65,6 @@ const HackathonSchedule: React.FC = () => {
     </div>
   );
 };
+
 
 export default HackathonSchedule;
