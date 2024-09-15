@@ -43,21 +43,36 @@ const HackathonSchedule: React.FC = () => {
         <EventTimeline
           day="Day 1:"
           timeline={[
-            { time: '9:00 AM', event: 'Registration' },
-            { time: '10:00 AM', event: 'Opening Ceremony' },
-            { time: '11:00 AM', event: 'Team Formation' },
-            { time: '12:00 PM', event: 'Hackathon Begins' },
-            { time: '7:00 PM', event: 'Dinner & Networking' },
+            { time: '9:00 AM', event: 'Opening Speech' },
+            { time: '9:10 AM', event: 'IBM Introduction' },
+            { time: '9:40 AM', event: 'Networking' },
+            { time: '10:10 AM', event: 'Session 1' },
+            { time: '11:00 AM', event: 'Break' },
+            { time: '11:10 AM', event: 'Session 2' },
+            { time: '12:00 PM', event: 'Break' },
+            { time: '12:10 PM', event: 'Session 3' },
+            { time: '1:00 PM', event: 'Lunch Break' },
+            { time: '2:00 PM', event: 'Session 4' },
+            { time: '2:50 PM', event: 'Break' },
+            { time: '3:00 PM', event: 'Session 5' },
+            { time: '3:50 PM', event: 'Break' },
+            { time: '4:00 PM', event: 'Session 6' },
+            { time: '4:50 PM', event: 'Networking' },
+            { time: '5:30 PM', event: 'Shuttle' }
           ]}
         />
         <EventTimeline
           day="Day 2:"
           timeline={[
-            { time: '8:00 AM', event: 'Breakfast' },
-            { time: '9:00 AM', event: 'Continued Hacking' },
-            { time: '12:00 PM', event: 'Lunch' },
-            { time: '3:00 PM', event: 'Final Presentations' },
-            { time: '5:00 PM', event: 'Award Ceremony' },
+            { time: '9:00 AM', event: 'Opening - Networking' },
+          { time: '9:30 AM', event: 'Problem Introduction' },
+          { time: '10:00 AM', event: 'Hackathon Start' },
+          { time: '4:00 PM', event: 'Project Submission' },
+          { time: '4:10 PM', event: 'Break' },
+          { time: '4:25 PM', event: 'Solution of the Problem' },
+          { time: '5:10 PM', event: 'Award Ceremony' },
+          { time: '5:55 PM', event: 'Closing and Thanks' },
+          { time: '6:30 PM', event: 'Shuttle' }
           ]}
         />
       </div>

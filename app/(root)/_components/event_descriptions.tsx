@@ -12,17 +12,17 @@ interface EventInfo {
 const eventsData: EventInfo[] = [
   {
     title: 'Networking Session',
-    description: 'Join us for an exclusive networking session where participants can engage with fellow quantum enthusiasts, exchange ideas, and learn the field of quantum computing.',
+    description: 'We are excited to host a vibrant networking session bringing together esteemed participants from IBM, members of QSB-SU, distinguished professors actively engaged in quantum research, and a passionate community from across Istanbul eager to explore the world of quantum technologies.',
     image: './Networking.jpg', // Replace with your actual image path
   },
   {
     title: 'Lectures',
-    description: 'Engage with top-tier quantum researchers as they give deep lectures on the emerging trends in quantum technology and computing.',
+    description: 'You are invited to join five training sessions led by IBM instructors, where you will learn the fundamentals of solving problems using quantum technologies and gain the essential knowledge for the hackathon. The sessions will be held at Sabancı University, with a limited quota of 80 participants. Hurry up to secure your seat…',
     image: './Seminar.jpg', // Replace with your actual image path
   },
   {
     title: 'Hackathon',
-    description: 'Join the main event where teams compete to build quantum-inspired solutions. Teams will be given real-world problems to solve using quantum algorithms.',
+    description: "Everyone is welcome to join our hackathon—no prior knowledge of quantum technologies is required! With basic Python skills and the training provided during the event, you'll be able to start solving problems using quantum technologies in teams of up to 4 participants. The Hackathon session will be held at Sabancı University, with a limited quota of 10 teams. Hurry up to secure your seat.",
     image: './Competition.jpg', // Replace with your actual image path
   },
 ];
